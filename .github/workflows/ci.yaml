@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: first job shall fail
-        run: echo "Runing step 1"
+        run: echo "Runing step 1!"
