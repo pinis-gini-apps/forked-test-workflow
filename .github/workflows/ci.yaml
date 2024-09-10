@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - development
+jobs:
+ job-one:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first job shall fail
+        run: echo "Runing step 1"
